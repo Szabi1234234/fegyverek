@@ -83,3 +83,38 @@ div.kep img {
     margin: 5px;
 }
 
+div.kepszoveg{
+    margin: 20px;
+    float: left;
+    width: 600px;
+    
+}
+
+article.fegyver::after{
+     display: table;
+    content: "";
+    clear: both;
+}
+article.fegyver{
+    vertical-align: middle;
+    background-color: darkslategray;
+    color: lavenderblush;
+    margin: 5px;
+}
+
+form{
+    background-color: darkslategray;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 5px;
+    width: 500px;
+    padding: 10px;
+    color: beige;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    text-align: center}
+
+form #user,#passw,#email{
+    height: 30px;
+}

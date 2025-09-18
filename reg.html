@@ -24,9 +24,49 @@
 
     <section>
         <article>
-            <h2>Fegyverek</h2>
-                <p>Magyarországon fegyvertartási engedélyt (lőfegyvertartási engedély) a fegyverekről és lőszerekről szóló 2004. évi XXIV. törvény és kapcsolódó jogszabályok alapján lehet szerezni, meghatározott célokra, mint a céllövészet, sportlövészet, vadászat, filmgyártás, vagy személy- és vagyonvédelem. Az engedély megszerzéséhez pszichikai és orvosi alkalmassági, fegyverismereti vizsga, valamint a helyi rendőrség jóváhagyása szükséges, mely során ellenőrzik a lakásban a lőfegyver tárolásához szükséges biztonsági feltételeket. A kérelmet az ugysz.police.hu (ügyfélkapu) weboldalon lehet benyújtani. </p>
+            <h2>Sign up</h2>
+            <form action="reg.html" method="get">
+                <label for="user">Username: </label><br>
+                <input type="text" name="user" id="user"><br>
+                <label for="passw">Password</label><br>
+                <input type="password" name="passw" id="passw"><br>
+                <label for="birthd">birthdate</label><br>
+                <input type="date" name="birthd" id="birthd"><br>
+                <label for="email">E-mail</label><br>
+                <input type="email" name="email" id="email"><br>
+                <h3>Gender:</h3>
+                <input type="radio" name="Gender" id="male" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" name="Gender" id="female" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" name="Gender" id="other" value="other">
+                <label for="other">Other</label><br>
+                
+                <input type="checkbox" name="adat" id="adat">
+                <label for="adat">Elfogadom az adatvedelmi szabalyokat</label><br>
+                <input type="checkbox" name="szerz" id="szerz">
+                <label for="adat">Elfogadom az szerzodesi szabalyokat</label><br>
 
+                <h3>Choose your class</h3>
+                <select name="osztaly" id="osztaly">
+                    <option value="Scout">Scout</option>
+                    <option value="Sentry">Sentry</option>
+                    <option value="Warden">Warden</option>
+                </select>
+
+                <label for="magassag">magassag:</label>
+                <input type="number" name="magassag" id="magassag" min="150" max="250">
+
+                <h3>Introduce yourself</h3>
+                <textarea name="intro" id="intro" rows="10" cols="50"></textarea>
+                <input type="submit" value="Sign up">
+                
+
+
+
+            </form>
+                
+            
         </article>
         <aside>
             <img src="img/walmart.png" alt="">
